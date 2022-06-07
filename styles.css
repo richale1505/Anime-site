@@ -1,0 +1,72 @@
+* {
+    /*border: 1px solid red;*/
+    box-sizing: border-box;  
+    margin: 0;
+}
+
+.banner,
+.nav,
+.content-box,
+.anime {
+    width: fit-content;
+    margin: 0px 70px 4px;
+}
+
+.nav {
+    background-color: #fd8b9e;
+    padding: 8px 0;
+    width: max-content;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #fd8b9e;
+    color: #f5d6d6;
+    padding: 0 16px;
+    text-align: center;
+    margin: 0 98px;
+}
+
+.nav a:hover {
+    color: #c15062;
+}
+
+.anime {
+    display: block;
+    background-color: pink;
+    margin: 8px 0px;
+    padding: 8px;
+    list-style: none;
+}
+
+.anime li {
+    width: auto;
+}
+
+.anime a {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+}
+
+.anime h3 {
+    display: flex;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rebeccapurple;
+    margin-left: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.anime p {
+    display: flex;
+    background-color: #c15062;
+    width: fit-content;
+}
+
+.anime img {
+    width: 200px;
+    height: 300px;
+}
